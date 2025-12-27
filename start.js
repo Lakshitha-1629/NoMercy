@@ -12,6 +12,7 @@ const sessionFile = path.join(sessionDir, 'auth_info_multi.json');
 
 if (!fs.existsSync(sessionDir)) fs.mkdirSync(sessionDir);
 
+// SESSION_ID load
 if (!fs.existsSync(sessionFile)) {
   if (!setting.SESSION_ID) {
     console.log('❌ SESSION_ID missing');
@@ -27,5 +28,6 @@ if (!fs.existsSync(sessionFile)) {
   console.log('✅ SESSION_ID loaded');
 }
 
+// start bot
 import './index.js';
 console.log('🔥 NO-MERCY-MD V6 Bot Starting...');
