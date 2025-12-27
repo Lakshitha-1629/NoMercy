@@ -1,4 +1,0 @@
-users.json # []
-groups.json # []
-premium.json # []
-settings.json # { "welcome": true, "antiDelete": true, "mode": "public" }
