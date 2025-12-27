@@ -1,7 +1,7 @@
 {
 "name": "NO-MERCY-MD-V6",
 "version": "6.0.0",
-"description": "Full Asitha-MD style WhatsApp bot",
+"description": "Powerful WhatsApp bot",
 "main": "Start.js",
 "scripts": {
 "start": "node Start.js"
