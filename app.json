@@ -1,0 +1,10 @@
+{
+"name": "NO-MERCY-MD V6",
+"description": "Asitha-MD style WhatsApp bot",
+"version": "6.0.0",
+"main": "Start.js",
+"scripts": {
+"start": "node Start.js"
+},
+"dependencies": {}
+}
