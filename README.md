@@ -6,5 +6,5 @@
 </p>
 <br><br>
 <p aling="center">
-  <a src="images/NoMercy-MD menu and deploy.jpg">
+  <img src="images/NoMercy-MD menu and deploy.jpg">
 </p>
