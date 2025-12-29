@@ -1,2 +1,7 @@
 
-<p><b> strong</b> </p>
+<p>
+  <b>
+    <i>strong</i>
+  </b> 
+</p>
+
