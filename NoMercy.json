@@ -1,6 +1,87 @@
-{
-"session": "auth_info_multi.json",
-"tempFolder": "temp",
-"assetsFolder": "assets",
-"pluginsFolder": "plugins"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>NoMercy-MD Owner Panel</title>
+<style>
+body {
+    background: black;
+    font-family: 'Courier New', monospace;
+    color: #ff0000;
+    text-align: center;
+    padding-top: 80px;
 }
+
+.panel {
+    display: inline-block;
+    padding: 40px;
+    border: 2px solid #ff0000;
+    background: rgba(0,0,0,0.85);
+    box-shadow: 0 0 20px red, 0 0 40px darkred;
+}
+
+.title {
+    font-size: 60px;
+    letter-spacing: 6px;
+    color: #ff0000;
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 40px darkred;
+}
+
+.variant {
+    font-size: 40px;
+    margin-top: 20px;
+    color: #00ffea;
+    text-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 30px #00ffea;
+    animation: glitch 1s infinite;
+}
+
+/* Blinking/Glitch animation */
+@keyframes glitch {
+    0% { text-shadow: 2px 0 #ff0000, -2px 0 #00ffea; }
+    25% { text-shadow: -2px 2px #ff0000, 2px -2px #00ffea; }
+    50% { text-shadow: 2px -2px #ff0000, -2px 2px #00ffea; }
+    75% { text-shadow: -2px 0 #ff0000, 2px 0 #00ffea; }
+    100% { text-shadow: 2px 0 #ff0000, -2px 0 #00ffea; }
+}
+
+.owner {
+    font-size: 25px;
+    margin-top: 20px;
+    color: #ff3333;
+}
+
+.warning {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #ff0000;
+    text-shadow: 0 0 10px red;
+}
+
+.footer {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #999;
+}
+</style>
+</head>
+<body>
+
+<div class="panel">
+    <div class="title">NoMercy-MD</div>
+    <div class="variant">⚡ VARIANT: OWNER CONTROL SYSTEM</div>
+    <div class="owner">👑 Owner: Lakshitha</div>
+    <div class="warning">💀 SYSTEM LOCKED <br> ⚡ PUBLIC ACCESS: NOT AVAILABLE</div>
+    <div class="footer">🔥 Out Of Metrix Cyber Team</div>
+</div>
+
+<!-- JavaScript for extra cyber glitch effects -->
+<script>
+const variant = document.querySelector('.variant');
+setInterval(() => {
+    const randomColor = `#${Math.floor(Math.random()*16777215).toString(16)}`;
+    variant.style.textShadow = `2px 2px ${randomColor}, -2px -2px ${randomColor}`;
+}, 200);
+</script>
+
+</body>
+</html>
